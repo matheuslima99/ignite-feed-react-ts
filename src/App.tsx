@@ -1,13 +1,17 @@
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
-import { Post } from "./components/Post";
+import { Post, PostProps } from "./components/Post";
 
 import "./global.css";
 import styles from "./App.module.css";
 
-const posts = [
+interface Post extends PostProps {
+  id: number;
+}
+
+const posts: Post[] = [
   {
-    id: "1",
+    id: 1,
     author: {
       avatarUrl: "http://github.com/diego3g.png",
       name: "Diego Fernandes",
@@ -25,7 +29,7 @@ const posts = [
     publishedAt: new Date("2022-10-17 20:00:00"),
   },
   {
-    id: "2",
+    id: 2,
     author: {
       avatarUrl: "http://github.com/matheuslima99.png",
       name: "Matheus Lima",

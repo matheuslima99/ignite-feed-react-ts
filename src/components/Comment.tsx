@@ -19,18 +19,17 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
   function handleLikeComment() {
     setLikeCount((state) => state + 1);
-    setLikeCount((state) => state + 1);
   }
 
   return (
     <div className={styles.comment}>
-      <Avatar hasBorder={false} src="http://github.com/diego3g.png" />
+      <Avatar hasBorder={false} src="https://github.com/filipedeschamps.png" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Diego Fernandes</strong>
+              <strong>Filipe Deschamps</strong>
               <time title="11 de Maio ás 08:13h" dateTime="22-05-11 08:13:30">
                 Cerca de 1h atrás
               </time>

@@ -130,6 +130,6 @@ Distribuído sob a licença MIT. Ver `LICENSE.txt` para maiores informações.
 
 Matheus Lima - [LinkedIn](https://www.linkedin.com/in/matheus-soares99/) - maths.soares99@gmail.com
 
-Acesse o site do projeto: [Ignite Feed](https://ignite-feedts.netlify.app/)
+Link do projeto: [https://github.com/matheuslima99/ignite-feed-react-ts](https://github.com/matheuslima99/ignite-feed-react-ts)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
